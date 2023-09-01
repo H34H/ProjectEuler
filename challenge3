@@ -1,0 +1,10 @@
+total = 600851475143
+factor = 2
+
+while total > 1:
+	if total%factor == 0:
+		total = total / factor
+		print(str(factor) + "\t" + (str(total)))
+		factor = 2
+	else:
+		factor = factor + 1

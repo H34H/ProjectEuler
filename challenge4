@@ -1,0 +1,15 @@
+a = 999
+b = 999
+palindrome = 0
+number = 0
+
+for a in range(862, 999):
+	for b in range(862, 999):
+		number = a*b
+		if str(number) == str(number)[::-1]:
+			print (number)
+			print (a)
+			print (b) 
+			palindrome = number
+
+		
